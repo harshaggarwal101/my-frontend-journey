@@ -1,0 +1,13 @@
+button{
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+body{
+    background-color: white;
+    color: black;
+}
+body.dark{
+    background-color: black;
+    color: white;
+}
