@@ -53,6 +53,4 @@ Strengthen JavaScript fundamentals, understand DOM manipulation, explore ES6 fea
 
 ---
 
-## 📂 Project Structure
-
 
