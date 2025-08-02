@@ -29,6 +29,14 @@ The bookmarks remain persistent even after the page is refreshed.
 - Delete individual bookmarks on demand
 - Automatically shows saved bookmarks on page reload
 
+---
+
+## 💻 Tech Stack
+
+- HTML
+- Tailwind CSS
+- JavaScript (ES6+)
+- Browser localStorage API
 
 ---## 📸 Preview
 
