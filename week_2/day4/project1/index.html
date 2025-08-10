@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clock</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-yellow-100 h-screen flex justify-center items-center">
+<div
+  id="maincontainer"
+  class="relative border-none h-[70%] aspect-square flex justify-center items-center rounded-full shadow-lg bg-center bg-no-repeat bg-cover bg-center"
+  style="background-image: url('https://images.unsplash.com/photo-1550859492-d5da9d8e45f3?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"
+>
+  <!-- Hour hand -->
+  <div class="absolute top-1/2 left-1/2 w-[30%] origin-left -rotate-90 transition-transform duration-[50ms] ease-in-out hour-hand bg-black h-[6px]"></div>
+  
+  <!-- Minute hand -->
+  <div class="absolute top-1/2 left-1/2 w-[40%] origin-left -rotate-90 transition-transform duration-[50ms] ease-in-out minute-hand bg-gray-500 h-[4px]"></div>
+  
+  <!-- Second hand -->
+  <div class="absolute top-1/2 left-1/2 w-[45%] h-[2px] bg-red-500 origin-left -rotate-90 transition-transform duration-[50ms] ease-in-out seconds-hand"></div>
+  <div class="top-1/2 left-1/2 h-3 w-3 rounded-full bg-black"></div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
