@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <header>
+        <h1 class="text-6xl text-center p-6">
+            VIRTUAL DRUMSTICK
+        </h1>
+    </header>
+    <main>
+        <div id="drumpad" class="grid grid-cols-6 grid-row-2 gap-3">
+            <button class="sound aspect-square w-[10vw] border shadow-lg m-3 rounded bg-yellow-200 transition duration-150 transform hover:scale-105 hover:bg-yellow-300 active:scale-95 hover:shadow-xl">
+                Kick Drum
+            </button>
+            <button class="sound aspect-square w-[10vw] border shadow-lg m-3 rounded bg-yellow-200 transition duration-150 transform hover:scale-105 hover:bg-yellow-300 active:scale-95 hover:shadow-xl">
+                Snare Drum
+            </button>
+            <button class="sound aspect-square w-[10vw] border shadow-lg m-3 rounded bg-yellow-200 transition duration-150 transform hover:scale-105 hover:bg-yellow-300 active:scale-95 hover:shadow-xl">
+                Hi-Hat Closed	
+            </button>
+            <button class="sound aspect-square w-[10vw] border shadow-lg m-3 rounded bg-yellow-200 transition duration-150 transform hover:scale-105 hover:bg-yellow-300 active:scale-95 hover:shadow-xl">
+                Hi-Hat Open	
+            </button>
+            <button class="sound aspect-square w-[10vw] border shadow-lg m-3 rounded bg-yellow-200 transition duration-150 transform hover:scale-105 hover:bg-yellow-300 active:scale-95 hover:shadow-xl">
+                Low Tom	
+            </button>
+            <button class="sound aspect-square w-[10vw] border shadow-lg m-3 rounded bg-yellow-200 transition duration-150 transform hover:scale-105 hover:bg-yellow-300 active:scale-95 hover:shadow-xl">
+                Mid Tom	
+            </button>
+            <button class="sound aspect-square w-[10vw] border shadow-lg m-3 rounded bg-yellow-200 transition duration-150 transform hover:scale-105 hover:bg-yellow-300 active:scale-95 hover:shadow-xl">
+                High Tom	
+            </button>
+            <button class="sound aspect-square w-[10vw] border shadow-lg m-3 rounded bg-yellow-200 transition duration-150 transform hover:scale-105 hover:bg-yellow-300 active:scale-95 hover:shadow-xl">
+                Crash Cymbal	
+            </button>
+            <button class="sound aspect-square w-[10vw] border shadow-lg m-3 rounded bg-yellow-200 transition duration-150 transform hover:scale-105 hover:bg-yellow-300 active:scale-95 hover:shadow-xl">
+                Ride Cymbal	
+            </button>
+            <button class="sound aspect-square w-[10vw] border shadow-lg m-3 rounded bg-yellow-200 transition duration-150 transform hover:scale-105 hover:bg-yellow-300 active:scale-95 hover:shadow-xl">
+                Clap	
+            </button>
+            <button class="sound aspect-square w-[10vw] border shadow-lg m-3 rounded bg-yellow-200 transition duration-150 transform hover:scale-105 hover:bg-yellow-300 active:scale-95 hover:shadow-xl">
+                Cobwell	
+            </button>
+            <button class="sound aspect-square w-[10vw] border shadow-lg m-3 rounded bg-yellow-200 transition duration-150 transform hover:scale-105 hover:bg-yellow-300 active:scale-95 hover:shadow-xl">
+                Shaker	
+            </button>
+
+        </div>
+    </main>
+    <footer class="m-4 p-5 flex justify-center items-center mt-[200px]">
+        <label for="volume" class="text-3xl">Volume:</label>
+        <input type="range" id="volume" min="0" max="100" step="1" value="50" class="w-48 m-2 p-2">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
