@@ -67,4 +67,4 @@
 
 ## 🖼️ Project Preview
 ![Bookmark Saver Preview](preview.png)
-📁 [View Project Folder](.task/)
+📁 [View Project Folder](./task/)
