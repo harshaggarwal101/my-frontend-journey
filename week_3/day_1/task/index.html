@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarks</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-50 flex flex-col items-center justify-center min-h-screen">
+<h1 class="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 drop-shadow-[0_0_10px_rgba(200,162,255,0.8)] tracking-wide animate-pulse">
+    BOOKMARK SAVER
+</h1>
+
+
+    <!-- Add Bookmark Form -->
+    <div class="flex flex-col gap-3 w-full max-w-md bg-blue-100 p-5 mt-8 rounded-lg shadow-md">
+        <h1 class="text-3xl font-bold">Add Bookmarks</h1>
+        
+        <form id="bookmarkForm" class="flex flex-col gap-3">
+            <input type="text" id="name" placeholder="Website name" class="p-2 border rounded" required>
+            <input type="url" id="url" placeholder="https://example.com" class="p-2 border rounded" required>
+            <button type="submit" id="save" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                Save
+            </button>
+        </form>
+    </div>
+
+    <!-- Bookmark List -->
+    <div class="flex flex-col gap-3 max-w-md bg-blue-100 p-5 mt-10 w-full rounded-lg shadow-md">
+        <ul id="bookmarks" class="text-blue-800 flex flex-col gap-4"></ul>
+    </div>
+
+    <!-- Import JS Modules -->
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
